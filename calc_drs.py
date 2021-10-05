@@ -85,5 +85,4 @@ def insert_number():
         print('Invalid entry, try again \n')
         insert_number()        
 
-
 greeting1()
