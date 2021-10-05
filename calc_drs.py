@@ -83,6 +83,7 @@ def insert_number():
 
     else: # error mesage and restart
         print('Invalid entry, try again \n')
+        insert_number()        
 
 
 greeting1()
