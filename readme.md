@@ -2,7 +2,7 @@ This code aims to help researchers to sort their reference list. To achieve this
 
 I am a beginner Python practitioner, so any help will be welcome.
 
-I still need to fix:
--input and output files
--the output file could be better formatted 
+I still need to fix: /n
+-input and output files /n
+-the output file could be better formatted /n
 -blank lines need to be treated once it is sorted before the references instead of between then
