@@ -1,8 +1,7 @@
-This code aims to help researchers to sort their reference list. To achieve this goal, it takes a list file unorganised and return a new organised one.
+1. Abra o arquivo "ADD_REF_HERE" e cole suas referências, uma abaixo da outra (sem deixar linhas em branco).
 
-I am a beginner Python practitioner, so any help will be welcome.
+2. Clique em "Run to organise!"
 
-I still need to fix: /n
--input and output files /n
--the output file could be better formatted /n
--blank lines need to be treated once it is sorted before the references instead of between then
+3. Suas referências estarão organizadas no arquivo "references_organized". Abra este arquivo, copie o conteúdo, cole no word, selecione tudo e pressione Ctrl+H.
+
+4. Referências organizadas e formatadas.
