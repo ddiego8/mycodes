@@ -1,19 +1,15 @@
-# install Word method
+rfile = open('ADD_REF_HERE.txt', 'r')
 
-inp = input('Enter the file name - it has be saved at the same folder: \n >')
+lista = list()
 
-rfile = open(inp, 'r')  
+new = open('references_organized.txt', 'w')
 
-lst = list()
-
-new = open('references_organized.txt', 'w')  #create a new file to output the references organized (currently at txt for testing)
-
-for line in rfile:                
+for line in rfile:        #leia cada linha verificando o sobrenome, nome do autor e guarde
     line = line.rstrip()
-    lst.append(line)
-   
-alfabetic = sorted(lista)   #blank lines still have to be treated once they have been all sorted before the references
+    lista.append(line)
 
-new.writelines(alfabetic)   #write the iteration result on the new file
+alfabetico = sorted(lista)   #ordene cada linha (nome) alfabeticamente
+for refline in alfabetico:
+    new.writelines(refline + '\n')   #gera um novo arquivo escrevendo cada referência organizadas em uma linha e pulando para a seguinte
 
-print('Done')
+print('Organização concluída! =) ')
